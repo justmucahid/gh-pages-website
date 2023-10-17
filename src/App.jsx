@@ -42,7 +42,7 @@ function App() {
         </a>
       </div>
       <p className="senet">
-        Follaw To More About Us
+        Follow For More About Us
       </p>
     </>
   )

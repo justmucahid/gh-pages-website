@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './assets/vite.svg'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {FaXTwitter} from 'react-icons/fa6'
 import {AiFillInstagram} from 'react-icons/ai'
@@ -15,7 +15,7 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <AiFillInstagram size="50px" />
+        <AiFillLinkedin size="50px" />
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>

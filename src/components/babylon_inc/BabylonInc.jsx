@@ -40,7 +40,7 @@ const BabylonInc = (props) => {
                 scene.activeCamera.radius = 0.18
 
                 scene.activeCamera.target.x = 0
-                scene.activeCamera.target.y = 0.04
+                scene.activeCamera.target.y = 0.02
                 scene.activeCamera.target.z = 0
 
                 // scene.stopAllAnimations();
@@ -55,7 +55,7 @@ const BabylonInc = (props) => {
         pCube1.scaling = new Vector3(0.06, 0.06, 0.06)
         pCube1.position.y = 0.04
         pCube1.rotation = new Vector3(0, 0.45, 0)
-        pCube1.morphTargetManager.getTarget(0).influence = 0.01
+        pCube1.morphTargetManager.getTarget(0).influence = 0.7
 
         scene.registerBeforeRender(() => {
             camera.alpha += 0.01;
